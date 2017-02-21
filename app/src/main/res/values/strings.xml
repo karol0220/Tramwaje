@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Tramwaje</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_drawer">Tramwaje</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <string name="main_menu_item">"Pokaż:"</string>
+
+    <string name="trams_item">" Tramwaje"</string>
+    <string name="stops_item">" Przystanki"</string>
+
+
+    <string name="was_here">"Był tu"</string>
+    <string name="minutes">"min"</string>
+    <string name="ago">"s temu"</string>
+    <string name="on_end_stop">"na pętli"</string>
+    <string name="arrow">"➡"</string>
+    <string name="tram_sign">"T"</string>
+
+    <string name="tram_standing">"Tramwaj na pętli"</string>
+    <string name="tram_unknown_direction">"Tramwaj o nieokreślonym kierunku"</string>
+    <string name="tram_moving">"Tramwaj o określonym kierunku"</string>
+    <string name="stop">"Przystanek tramwajowy"</string>
+
+
+    <string name="conditions">"Źródło danych o tramwajach: Miasto Stołeczne Warszawa"</string>
+
+    <string name="sign">"Copyright 2017 Karol Kostrzewa"</string>
+
+
+    <string name="allTrams">Zaznacz wszystkie</string>
+    <string name="noTrams">Odznacz wszystkie</string>
+    <string name="tram1">1</string>
+    <string name="tram2">2</string>
+    <string name="tram3">3</string>
+    <string name="tram4">4</string>
+    <string name="tram6">6</string>
+    <string name="tram7">7</string>
+    <string name="tram9">9</string>
+    <string name="tram10">10</string>
+    <string name="tram11">11</string>
+    <string name="tram13">13</string>
+    <string name="tram14">14</string>
+    <string name="tram15">15</string>
+    <string name="tram17">17</string>
+    <string name="tram18">18</string>
+    <string name="tram20">20</string>
+    <string name="tram22">22</string>
+    <string name="tram23">23</string>
+    <string name="tram24">24</string>
+    <string name="tram25">25</string>
+    <string name="tram26">26</string>
+    <string name="tram27">27</string>
+    <string name="tram28">28</string>
+    <string name="tram31">31</string>
+    <string name="tram33">33</string>
+    <string name="tram35">35</string>
+    <string name="tram44">44</string>
+    <string name="legend">Legenda</string>
+    <string name="tram_low_floor">Tramwaj niskopodłogowy</string>
+</resources>

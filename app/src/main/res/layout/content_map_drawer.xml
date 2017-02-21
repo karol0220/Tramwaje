@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/content_map_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_map_drawer">
+
+
+    <fragment
+        android:id="@+id/map1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.karol.tramwaje.MapsActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Switch
+        android:text="@string/stops_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_stops"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Display2"
+
+
+        android:background="@color/colorPrimary"
+        android:textColor="@color/cast_expanded_controller_progress_text_color"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:text="@string/trams_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_trams"
+        android:checked="true"
+        android:textStyle="bold"
+        android:textColorLink="?attr/colorPrimaryDark"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/cast_expanded_controller_progress_text_color"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/switch_stops"
+        android:layout_toStartOf="@+id/switch_stops" />
+
+
+</RelativeLayout>
